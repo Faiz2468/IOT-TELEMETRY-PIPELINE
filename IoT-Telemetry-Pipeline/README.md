@@ -9,8 +9,8 @@ dashboard visualises the data.
 ## Architecture
 
 ```
-┌─────────────────────┐        REST/HTTPS        ┌──────────────────────┐
-│  Device Simulator   │ ──────────────────────►  │  Supabase (Postgres) │
+┌─────────────────────┐        REST/HTTPS         ┌──────────────────────┐
+│  Device Simulator   │ ──────────────────────►   │  Supabase (Postgres) │
 │  app.py             │   POST /device_telemetry  │  device_telemetry    │
 │  3 virtual nodes    │                           │  table               │
 └─────────────────────┘                           └──────────┬───────────┘
