@@ -1,8 +1,3 @@
-"""
-IoT Cloud Telemetry Hub — Streamlit Dashboard
-Real-time monitoring of edge device sensor streams.
-"""
-
 import time
 import requests
 import pandas as pd

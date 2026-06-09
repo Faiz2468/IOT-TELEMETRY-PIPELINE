@@ -1,8 +1,3 @@
-"""
-IoT Cloud Telemetry Pipeline — Device Simulator
-Simulates multiple edge nodes streaming sensor readings to Supabase.
-"""
-
 import time
 import random
 import signal
